@@ -262,12 +262,11 @@ bool MainScene::LoadGameSettings()
 	TiXmlElement* xbubbleField = root->FirstChildElement("BubblesField");
 	TiXmlElement* xtimeField = root->FirstChildElement("TimeField");
 	TiXmlElement* xscoresField = root->FirstChildElement("ScoresField");
-	TiXmlElement* xflyingBubbles = root->FirstChildElement("FlyingBubbles");
+	//TiXmlElement* xflyingBubbles = root->FirstChildElement("FlyingBubbles");
 	if (!xglobal ||
 		!xbubbleField ||
 		!xtimeField ||
-		!xscoresField ||
-		!xflyingBubbles)
+		!xscoresField)
 	{
 		return false;
 	}

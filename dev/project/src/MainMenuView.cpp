@@ -12,7 +12,7 @@ bool MainMenuView::init(bool fromGame)
     CCLayer::init();
 
 	CCSprite* pBackground = CCSprite::create();
-    pBackground->initWithFile("testscenebg.png");
+    pBackground->initWithFile("main_fg.png");
     pBackground->setPosition(VisibleRect::center());
 	addChild(pBackground);
 
